@@ -1,0 +1,47 @@
+.headerbox__container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  height: 70%;
+}
+
+.headerbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #00000080;
+  color: white;
+  padding: 1rem;
+}
+
+.headerbox > * {
+  margin-bottom: 1rem;
+}
+
+.headerbox :last-child {
+  margin-bottom: 0;
+}
+
+.headerbox i {
+  color: initial;
+  margin-right: 0.5rem;
+}
+
+.headerbox__name {
+  font-size: 1.5rem;
+}
+
+.headerbox__address {
+  font-size: 0.8rem;
+}
+
+.headerbox__specifications {
+  font-size: 0.8rem;
+}
+
+.headerbox__specifications > * {
+  margin-right: 1rem;
+}
+
+.headerbox__buttons > * {
+  margin-right: 1rem;
+}

@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+}
+
+.navbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+.navbar__menu {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__menu > li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+.navbar__menu a {
+  text-decoration: none;
+  color: initial;
+}
+
+.logo__container {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: initial;
+}
+
+.logo__name {
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
