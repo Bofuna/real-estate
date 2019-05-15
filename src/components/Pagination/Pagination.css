@@ -1,0 +1,11 @@
+.pagination {
+  display: flex;
+}
+
+.pagination > * {
+  margin: 1rem;
+}
+
+.pagination__page > * {
+  margin-right: 0.5rem;
+}

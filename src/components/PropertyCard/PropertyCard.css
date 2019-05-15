@@ -1,0 +1,43 @@
+.propertycard {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.propertycard > * {
+  margin-bottom: 1rem;
+}
+
+.propertycard i {
+  margin-right: 0.3rem;
+}
+
+.propertycard__image {
+  width: 100%;
+}
+
+.propertycard__description {
+  font-size: 1.2rem;
+}
+
+.propertycard__address {
+  font-weight: 300;
+}
+
+.propertycard__specifications {
+  font-weight: 300;
+}
+
+.propertycard__specifications > * {
+  margin-right: 0.7rem;
+}
+
+.propertycard__time {
+  font-weight: 300;
+}
+
+.propertycard__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

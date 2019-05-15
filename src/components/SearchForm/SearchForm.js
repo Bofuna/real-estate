@@ -1,6 +1,7 @@
 import React from "react";
 import "./SearchForm.css";
 import SearchInput from "../SearchInput/SearchInput";
+import Button from "../Button/Button";
 
 const SearchForm = () => {
   return (
@@ -8,12 +9,13 @@ const SearchForm = () => {
       <div className="searchform__container__inner">
         <span className="searchform__title">Find Your Dream Home</span>
         <form className="searchform">
-          <SearchInput />
-          <SearchInput />
-          <SearchInput />
-          <SearchInput />
-          <SearchInput />
-          <SearchInput />
+          <SearchInput placeholder="Address, City" />
+          <SearchInput placeholder="Type" />
+          <SearchInput placeholder="Min. Price" />
+          <SearchInput placeholder="Max. Price" />
+          <SearchInput placeholder="Bedrooms" />
+          <SearchInput placeholder="Bathrooms" />
+          <Button text="Search" />
         </form>
       </div>
     </div>

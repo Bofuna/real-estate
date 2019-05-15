@@ -1,0 +1,18 @@
+.recentproperties {
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recentproperties > * {
+  margin-bottom: 4rem;
+}
+
+.recentproperties__grid {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
